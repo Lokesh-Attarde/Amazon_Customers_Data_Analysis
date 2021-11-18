@@ -50,7 +50,7 @@ This dataset contains all the details of the trending YouTube videos along with 
 
 # 🎉 Tasks performed under Sentiment Analysis:
 <p align="center">
-  <img width="550" height="400" src="https://user-images.githubusercontent.com/84115928/142150826-4afa030b-bfcb-489c-8f43-c39d93986ac3.jpeg">
+  <img src="https://user-images.githubusercontent.com/84115928/142443073-646c4a34-ed77-460b-becf-3b6976201339.gif">
 </p>
 
 * Extracted the **"Polarity"** of each and every YouTube Comments using ***TextBlob*** Library.
