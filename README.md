@@ -1,3 +1,4 @@
+
 # Amazon Customers Data Analysis Project 🔥🍁
 
 <p align="center">
@@ -26,14 +27,15 @@ Download the dataset for this project from following Link -
 * [Amazon Customers Dataset](https://drive.google.com/file/d/1AIkvkTer9OoomvER69RSLol16k7A4xZ6/view?usp=sharing)
 
 # 📚 Data Analysis
-This dataset contains all the details of the trending YouTube videos along with its Likes, Dislikes, Comments, Tags and Views for each video for a particular year.
+The data is in the form of **"SQLite" Database** where we are provided with 10 columns(Features) of data.
 
-* **video_id** : Unique Video ID.
-* **comment_text** : Comments given by Viewers for respective video.
-* **tags** : Tags used on YouTube Video's.
-* **views** : How many number of Views got w.r.t. each Video's.
-* **likes** : Total Likes hit by the Viewers.
-* **dislikes** : Total Dislikes hit by the Viewers.
+* **ProductId** : Unique Product ID's given to each products.
+* **UserId** : Unique Customer ID given to each user.
+* **Score** : Avg. Rating given by the Customer to each product.
+* **Summary** : Short Summary given by the Customer to each product.
+* **Text** : Detailed feedback given by the Customer w.r.t. each product.
+
+Out of the 10 features given in the datasets, 05 are Continuous and 05 (including the target variable) are Categorical features.
 
 # 🖥️ Technologies:
 ## 🛠️ Tools Used
@@ -54,5 +56,31 @@ This dataset contains all the details of the trending YouTube videos along with 
 </p>
 
 * Extracted the **"Polarity"** of each and every YouTube Comments using ***TextBlob*** Library.
-* Pre-process the ***Textual Data***, eliminate the **'StopWords'**. 
+* Pre-process the ***Textual Data***, eliminate the **'StopWords'** using ***NLTK.corpus***. 
 * Perform variety of Analysis on different ***Use Cases*** and Visualize it using **"WordCloud"**. 
+
+For more details, please go through the [Jupyter Notebook](https://drive.google.com/file/d/1eTKLGeFMZR2IJij8V3qjMSuO9PnCvsHG/view?usp=sharing) attached above and following Glimpses -
+
+# 🌱 Some Exciting Glimpse of the Visuals:
+![Glimpse 1](https://user-images.githubusercontent.com/84115928/142457948-9626a04a-4e51-4f47-a5f9-4c2a0564d700.gif)
+![Glimpse 2](https://user-images.githubusercontent.com/84115928/142457991-11f27fb1-8ced-49e7-bd12-10893373cecd.gif)
+* Behaviour of Customers
+<p align="center">
+  <img height="400" src="https://user-images.githubusercontent.com/84115928/142458029-9bbf8b08-b6a2-47b5-b44e-516afba8acb5.JPG">
+</p>
+
+# 💡 Conclusions
+* In terms of Positive Comments - "best", "Awesome", "perfect", "great", "beautiful", "amazing", etc. All the kinds of 'Keyboards' has a 'Higher Priority' than all other Words.
+* In terms of Negative Comments - "boring", "terrible", "worst", "horrible", "disgusting", "awful", etc. All these kinds of 'Keywords' has a 'Higher Priority'.
+* Most Trending 'Tags' on "YouTube" are "iPhone X", "none", "makeup tutorial", "las vegas", "music video", "funny video", etc.
+* Whenever our "Views" are Increasing, our "Likes" are also Rising to a great extent.
+  Similarly, In terms of 'dislikes' vs 'Views' Plot, Whenever our "Views" are Increasing, "dislikes" are Not Rising that much.
+* "Laughing Smiley" Emoji is the "Most frequently used Emoji" (i.e. By "43.94K").
+  Following it, We have "Smiling Face with Heart-Eyes", "Black Heart", "Fire" and All these different Emoji's as well.
+  It means, Most of the Users, who "Comments" on the YouTube Videos are Mostly going to use these Type of Emoji's.
+
+# 🎉 Help Me Improve
+Hello Mr. Reader, if you find any bug or anything else that could add more value in this project then please consider raising it to me I will address them asap.
+  
+# 📫 Feedback
+If you have any feedback, please reach out to me via [LinkedIn](https://www.linkedin.com/in/lokesh-attarde-145086141/)
