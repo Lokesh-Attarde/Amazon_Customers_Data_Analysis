@@ -16,3 +16,43 @@
 </p>
 
 # 📝Problem Statement
+
+- To perform Sentiment Analysis on Amazon Customers data, EDA for the Positive & Negative Sentences. Secondly, Find-out To What Users Amazon can recommend more Products?
+- Next, Analyse Length of Comments whether Customers are prefer to give Lengthy Comments or Short one and Analyzing Score.
+- Furthermore, Analyzing Behaviour of the Customers.
+
+# ⏳ Dataset
+Download the dataset for this project from following Link -
+* [Amazon Customers Dataset](https://drive.google.com/file/d/1AIkvkTer9OoomvER69RSLol16k7A4xZ6/view?usp=sharing)
+
+# 📚 Data Analysis
+This dataset contains all the details of the trending YouTube videos along with its Likes, Dislikes, Comments, Tags and Views for each video for a particular year.
+
+* **video_id** : Unique Video ID.
+* **comment_text** : Comments given by Viewers for respective video.
+* **tags** : Tags used on YouTube Video's.
+* **views** : How many number of Views got w.r.t. each Video's.
+* **likes** : Total Likes hit by the Viewers.
+* **dislikes** : Total Dislikes hit by the Viewers.
+
+# 🖥️ Technologies:
+## 🛠️ Tools Used
+* Jupyter Notebook is used as IDE.
+* Pandas and NumPy are used for Data Manipulation & Pre-processing and Mathematical functions respectively.
+* For visualization of the plots, Matplotlib, Seaborn, Plotly are used.
+* WordCloud is used to representing the text data.
+* TextBlob is used to perform Sentiment Analysis.
+* GitHub is used as version control system.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/84115928/142146950-3081ea19-cd90-4999-8f67-728ceb57ac8a.png">
+</p>
+
+# 🎉 Tasks performed under Sentiment Analysis:
+<p align="center">
+  <img width="550" height="400" src="https://user-images.githubusercontent.com/84115928/142150826-4afa030b-bfcb-489c-8f43-c39d93986ac3.jpeg">
+</p>
+
+* Extracted the **"Polarity"** of each and every YouTube Comments using ***TextBlob*** Library.
+* Pre-process the ***Textual Data***, eliminate the **'StopWords'**. 
+* Perform variety of Analysis on different ***Use Cases*** and Visualize it using **"WordCloud"**. 
