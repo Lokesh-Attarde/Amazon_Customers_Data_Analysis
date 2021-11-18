@@ -43,6 +43,7 @@ Out of the 10 features given in the datasets, 05 are Continuous and 05 (includin
 * Pandas and NumPy are used for Data Manipulation & Pre-processing and Mathematical functions respectively.
 * For visualization of the plots, Matplotlib, Seaborn, Plotly are used.
 * WordCloud is used to representing the text data.
+* NLTK.corpus is used to process the StopWords.
 * TextBlob is used to perform Sentiment Analysis.
 * GitHub is used as version control system.
 
@@ -66,18 +67,15 @@ For more details, please go through the [Jupyter Notebook](https://drive.google.
 ![Glimpse 2](https://user-images.githubusercontent.com/84115928/142457991-11f27fb1-8ced-49e7-bd12-10893373cecd.gif)
 * Behaviour of Customers
 <p align="center">
-  <img height="400" src="https://user-images.githubusercontent.com/84115928/142458029-9bbf8b08-b6a2-47b5-b44e-516afba8acb5.JPG">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/84115928/142458029-9bbf8b08-b6a2-47b5-b44e-516afba8acb5.JPG">
 </p>
 
 # 💡 Conclusions
-* In terms of Positive Comments - "best", "Awesome", "perfect", "great", "beautiful", "amazing", etc. All the kinds of 'Keyboards' has a 'Higher Priority' than all other Words.
-* In terms of Negative Comments - "boring", "terrible", "worst", "horrible", "disgusting", "awful", etc. All these kinds of 'Keywords' has a 'Higher Priority'.
-* Most Trending 'Tags' on "YouTube" are "iPhone X", "none", "makeup tutorial", "las vegas", "music video", "funny video", etc.
-* Whenever our "Views" are Increasing, our "Likes" are also Rising to a great extent.
-  Similarly, In terms of 'dislikes' vs 'Views' Plot, Whenever our "Views" are Increasing, "dislikes" are Not Rising that much.
-* "Laughing Smiley" Emoji is the "Most frequently used Emoji" (i.e. By "43.94K").
-  Following it, We have "Smiling Face with Heart-Eyes", "Black Heart", "Fire" and All these different Emoji's as well.
-  It means, Most of the Users, who "Comments" on the YouTube Videos are Mostly going to use these Type of Emoji's.
+* In terms of Positive Summary - "Good", "love", "Delicious", "Best", "Great Product", "Excellent", etc. All these kinds of 'Positive Keywords' has a 'Higher Priority' than all other Words.
+* In terms of Negative Summary - "Disappointed", "bad", "taste", "little", "expensive", "horrible", "terrible", "expected", "flavor", "little", etc. are these kind of Negative Keywords "Customers" are going to prefer.
+* Almost "50%" Users were prefered to give their "feedback" almost in "50 Words", whereas there are only few Users who are going to give a "Lengthy Feedback's".
+* Most of the Customers are going to give "5" Score on most of the Product.
+* In terms of Behavior of the Customers - Most of the time our "Customers" are going to prefer all these "Keywords" such as - "chip", "flavor", "like", "good", "great", "one", and many more.
 
 # 🎉 Help Me Improve
 Hello Mr. Reader, if you find any bug or anything else that could add more value in this project then please consider raising it to me I will address them asap.
