@@ -56,7 +56,7 @@ Out of the 10 features given in the datasets, 05 are Continuous and 05 (includin
   <img src="https://user-images.githubusercontent.com/84115928/142443073-646c4a34-ed77-460b-becf-3b6976201339.gif">
 </p>
 
-* Extracted the **"Polarity"** of each and every YouTube Comments using ***TextBlob*** Library.
+* Extracted the **"Polarity"** of each and every Summary & Feedback's using ***TextBlob*** Library.
 * Pre-process the ***Textual Data***, eliminate the **'StopWords'** using ***NLTK.corpus***. 
 * Perform variety of Analysis on different ***Use Cases*** and Visualize it using **"WordCloud"**. 
 
